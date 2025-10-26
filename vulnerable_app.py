@@ -16,3 +16,9 @@ def run_command(request_data):
     os.system(command) # This is a command injection vulnerability
     
 print("Vulnerable app loaded.")
+
+# ... (all the existing vulnerable code) ...
+
+# --- NEW CHANGE FOR THE PR ---
+def new_feature():
+    print("This is the new feature I am adding in my PR.")
